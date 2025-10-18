@@ -10,3 +10,11 @@ TEST_CASE("test")
 {
 	REQUIRE(test_config() == true);
 }
+
+
+TEST_CASE("GCD tests")
+{
+    REQUIRE(mains(15, 25) == 5);
+    REQUIRE(mains(16, 32) == 16);
+    REQUIRE(mains(159, 309) == 3);
+}
